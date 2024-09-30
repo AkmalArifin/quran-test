@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "p1";
+  src: 
+    local("KFGQPC HAFS Uthmanic Script"),
+    url("./public/fonts/quran/hafs/v1/woff2/p1.woff2") format("woff"),
+    url("./public/fonts/quran/hafs/v1//ttf/p1.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "p3";
+  src: 
+    local("KFGQPC HAFS Uthmanic Script"),
+    url("./public/fonts/quran/hafs/v1/woff2/p3.woff2") format("woff"),
+    url("./public/fonts/quran/hafs/v1/ttf/p3.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "surahnames";
+  src:
+    url("./public/fonts/quran/surah-names/v1/sura_names.woff2"),
+    url("./public/fonts/quran/quran/surah-names/v1/sura_names.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+#quran {
+  font-family: "p3";
+}
+
+#surah-text {
+  font-family: "surahnames";
+  font-size: 64px;
+}
+
+.surah {
+  font-family: "surahnames";
+  font-size: 64px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Quran</h1>
+    <form id="form">
+        <p>Only page 3</p>
+        <label for="line">Line: </label>
+        <input type="number" name="line" id="line">
+        <button type="submit" id="button-1">Get</button>
+    </form>
+    <p id="quran"></p>
+    <form id="form-surah">
+        <label for="surah">Surah: </label>
+        <input type="number" name="surah" id="surah">
+        <button type="submit" id="button-2">Get</button>
+    </form>
+    <span id="surah-text"></span>
+    <span class="surah">surah</span>
+</body>
+</html>
