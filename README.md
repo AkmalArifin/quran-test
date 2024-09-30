@@ -10,4 +10,4 @@ DB_USER=
 DB_PASSWORD=
 ```
 - Create database name `srq_project` and import the db file to the database. The file path is `./api/db/db.sql`
-- run using live server
+- Run `index.html` using Live Server
